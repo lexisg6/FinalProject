@@ -1,0 +1,140 @@
+@media screen and (max-width: 767px){
+  img{
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px){
+  #content { display: flex; }   
+  
+  nav{ 
+  flex: 0; 
+  min-width: 150px;
+  order: 1;
+  background-color: #9078c4; }
+  
+  main{ 
+    flex: 3; 
+    order:3;
+    min-width: 20em;  
+    padding: 1em;
+  }
+  
+  img{
+    margin: 30px;
+    width: 40%;
+    
+  }
+}
+
+nav{
+  background-color: #9078c4;
+}
+
+
+
+#definition, #links{
+  background-color: #e2daeb;
+  color: #1f1235;
+  padding: 10px;
+}
+
+nav ul { list-style-type: none;
+         padding: 10px; 
+        
+       }
+
+nav a{
+  color: #1f1235;
+  padding: 5px;
+}
+
+a { text-decoration: none;
+        padding: 1em;
+		font-weight: bold;
+}
+
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial;
+  
+}
+
+h2{
+  text-align: center;
+}
+
+header{
+  background-color: #67568c;
+  text-align: center;
+  padding: 3px;
+  color: white;
+  font-family: verdana;
+  font-size: 30px;
+  margin: 0px;
+}
+
+footer{
+  background-color: #67568c;
+  text-align: center;
+  padding: 3px;
+  color: white;
+  margin: 0px;
+  margin-top: 10px;
+}
+
+.homenav{
+  border-radius: 5px;
+  background-color: #e2daeb;
+  margin: auto;
+  width: 90%;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.homenav a{
+  color: white;
+  background-color: #480d68;
+  border-radius: 10px;
+  margin-left: 3%;
+  margin-right: 2%;
+}
+
+form h1{
+  color:#480d68;
+}
+
+form{
+  background-color: #ccc;
+  padding: 10px;
+  max-width: 400px;
+ min-width: 270px;
+}
+
+
+
+input[type="submit"]{
+  background-color: #480d68;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+}
+
+textarea{
+  width: 300px;
+  resize: vertical;
+  margin: 5px;
+  background-color: #e2daeb;
+}
+
+input[type="email"]{
+  background-color: #e2daeb;
+  border: solid 1px black;
+  width: 300px;
+}
+
